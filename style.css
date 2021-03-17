@@ -12,6 +12,7 @@ body
   font-family: 'lato', sans-serif, monospace;
   font-size: 16px;
 }
+
 h2
 {
   margin-left: 5px;
@@ -20,28 +21,39 @@ h2
   color:#5e6472;
   padding: 20px 0 0;
 }
+
 h3
 {
-  margin-left: 20px;
+  margin-left: 40px;
   color:#00008B;
   font-style: italic;
 }
+
 img
 {
   border: 3px solid;
   border-image: url(border.png) 30 stretch;
   margin-left: 40px;
 }
+
 p
 {
+  line-height: 1.3em;
   margin-left: 40px;
   margin-right: 40px;
 }
+
 a
 {
-  margin-left: 40px;
+  margin-left: 5px;
+}
+
+a:hover
+{
+  background-color: gold;
 }
 li
 {
+  font-weight:bold;
   margin-left: 50px;
 }
